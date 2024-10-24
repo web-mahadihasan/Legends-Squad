@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 // {handleAvailableBtn, handleSelecetBtn}
 const AvailableContainer = () => {
   return (
-    <div className="container mx-auto px-4 mt-24 mb-8 flex justify-between items-center flex-col md:flex-row">
+    <div className="container mx-auto px-4 mt-24 mb-8 flex justify-between items-center flex-col md:flex-row space-y-6 md:space-y-0">
       <div>
         <h3 className='text-2xl font-bold text-primary-color'>Available Players for you</h3>
       </div>

@@ -4,6 +4,7 @@ import Banner from './components/Banner/Banner';
 import Navbar from './Navbar/Navbar';
 import AvailableContainer from './components/AvailableContainer/AvailableContainer';
 import Subscribe from './components/Subscribe/Subscribe';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const[claimCoin, setClaimCoin] = useState(0)
@@ -19,6 +20,7 @@ function App() {
       <AvailableContainer />
 
       <Subscribe />
+      <Footer />
     </>
   );
 }
