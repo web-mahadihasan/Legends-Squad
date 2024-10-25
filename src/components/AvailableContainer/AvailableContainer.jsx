@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import PropTypes from 'prop-types'
 import PlayerContainer from '../PlayersContainer/PlayerContainer';
-import Selected from '../Selected/Selected'
+import SelectedPlayers from "../Selected/SelectedPlayers";
 
 
-const AvailableContainer = ({ handleChoosePlayer }) => {
+const AvailableContainer = ({ handleChoosePlayer, choosePlayer }) => {
   const [isActiveContainer, setActiveContainer] = useState(true);
   const [players, setPlayers] = useState([]);
 
@@ -26,7 +26,9 @@ const AvailableContainer = ({ handleChoosePlayer }) => {
       <div className="container mx-auto px-4 mt-24 mb-8 flex justify-between items-center flex-col md:flex-row space-y-6 md:space-y-0">
         <div>
           <h3 className="text-2xl font-bold text-primary-color">
-            Available Players for you
+            {isActiveContainer
+              ? "Available Players for you"
+              : `Selected Player (${0}/6)`}
           </h3>
         </div>
         <div>
@@ -52,7 +54,7 @@ const AvailableContainer = ({ handleChoosePlayer }) => {
           </button>
         </div>
       </div>
-      <div></div>
+
       {/* // Player container */}
       {isActiveContainer ? (
         <PlayerContainer
@@ -60,14 +62,15 @@ const AvailableContainer = ({ handleChoosePlayer }) => {
           handleChoosePlayer={handleChoosePlayer}
         />
       ) : (
-        <Selected />
+        <SelectedPlayers choosePlayer={choosePlayer} />
       )}
     </>
   );
 };
 
 AvailableContainer.propTypes = {
-  handleChoosePlayer: PropTypes.func.isRequired
+  handleChoosePlayer: PropTypes.func.isRequired,
+  choosePlayer: PropTypes.array.isRequired,
   // handleAvailableBtn: PropTypes.func.isRequired,
   // handleSelectBtn: PropTypes.func.isRequired,
   // isActiveContainer: PropTypes.bool.isRequired,

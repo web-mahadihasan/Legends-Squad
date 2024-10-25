@@ -1,7 +1,7 @@
 {
   "players": [
     {
-      "player_Id": 1001,
+      "player_id": 1001,
       "name": "Virat Kohli",
       "country": "India",
       "image": "https://www.livemint.com/lm-img/img/2024/05/16/1600x900/Virat_Kohli_1712150617454_1715842899316.jpg",
@@ -15,7 +15,7 @@
       "ratings": 9.8
     },
     {
-      "player_Id": 1002,
+      "player_id": 1002,
       "name": "Joe Root",
       "country": "England",
       "image": "https://img.jagranjosh.com/imported/images/E/GK/Joe-root-pic.png",
@@ -29,7 +29,7 @@
       "ratings": 9.4
     },
     {
-      "player_Id": 1003,
+      "player_id": 1003,
       "name": "Shaheen Afridi",
       "country": "Pakistan",
       "image": "https://i.aaj.tv/primary/2024/07/11171346c8b4b89.webp",
@@ -43,7 +43,7 @@
       "ratings": 8.9
     },
     {
-      "player_Id": 1004,
+      "player_id": 1004,
       "name": "Steve Smith",
       "country": "Australia",
       "image": "https://wallpapers.com/images/high/dapper-steve-smith-ttg11eoze5okd1nb.webp",
@@ -57,7 +57,7 @@
       "ratings": 9.5
     },
     {
-      "player_Id": 1005,
+      "player_id": 1005,
       "name": "Shakib Al Hasan",
       "country": "Bangladesh",
       "image": "https://www.bjsports.live/wp-content/uploads/2023/12/1696748634550_Shakib-Al-Hasan-Qv79vJ.jpeg",
@@ -71,7 +71,7 @@
       "ratings": 9.6
     },
     {
-      "player_Id": 1006,
+      "player_id": 1006,
       "name": "David Warner",
       "country": "Australia",
       "image": "https://ichef.bbci.co.uk/ace/standard/2560/cpsprodpb/5885/live/90b5c700-9291-11ef-81d1-4f5706f00b57.jpg",
@@ -85,7 +85,7 @@
       "ratings": 8.4
     },
     {
-      "player_Id": 1007,
+      "player_id": 1007,
       "name": "Jos Buttler",
       "country": "England",
       "image": "https://static.cricketaddictor.com/images/2024/Jos%20Buttler.jpg",
@@ -99,7 +99,7 @@
       "ratings": 8.2
     },
     {
-      "player_Id": 1008,
+      "player_id": 1008,
       "name": "Babar Azam",
       "country": "Pakistan",
       "image": "https://crictoday.com/wp-content/uploads/2023/04/Untitled-design.jpg",
@@ -113,7 +113,7 @@
       "ratings": 9.7
     },
     {
-      "player_Id": 1009,
+      "player_id": 1009,
       "name": "Ben Stokes",
       "country": "England",
       "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/172B4/production/_131800949_gettyimages-1252228323.jpg",
@@ -127,7 +127,7 @@
       "ratings": 9.3
     },
     {
-      "player_Id": 1010,
+      "player_id": 1010,
       "name": "Marnus Labuschagne",
       "country": "Australia",
       "image": "https://content.api.news/v3/images/bin/61b5341ea43f12979c08e9b7a569c146",
@@ -141,7 +141,7 @@
       "ratings": 8.6
     },
     {
-      "player_Id": 1011,
+      "player_id": 1011,
       "name": "Mustafizur Rahman",
       "country": "Bangladesh",
       "image": "https://staticg.sportskeeda.com/editor/2024/06/942a4-17194584871812-1920.jpg",
@@ -155,7 +155,7 @@
       "ratings": 7.8
     },
     {
-      "player_Id": 1012,
+      "player_id": 1012,
       "name": "KL Rahul",
       "country": "India",
       "image": "https://d16f573ilcot6q.cloudfront.net/wp-content/uploads/2024/09/kl-rahul-.webp",
@@ -169,7 +169,7 @@
       "ratings": 8.1
     },
     {
-      "player_Id": 1013,
+      "player_id": 1013,
       "name": "Pat Cummins",
       "country": "Australia",
       "image": "https://api.bdcrictime.com/pat-cummins-07_03_2022.jpg",
@@ -183,7 +183,7 @@
       "ratings": 9.2
     },
     {
-      "player_Id": 1014,
+      "player_id": 1014,
       "name": "Rohit Sharma",
       "country": "India",
       "image": "https://images.mid-day.com/images/images/2023/apr/rohit-duck_d.jpg",
@@ -197,7 +197,7 @@
       "ratings": 9.1
     },
     {
-      "player_Id": 1015,
+      "player_id": 1015,
       "name": "Rashid Khan",
       "country": "Afghanistan",
       "image": "https://www.ariananews.af/wp-content/uploads/2024/03/Rashid.jpg",
@@ -211,7 +211,7 @@
       "ratings": 9.3
     },
     {
-      "player_Id": 1016,
+      "player_id": 1016,
       "name": "Kane Williamson",
       "country": "New Zealand",
       "image": "https://cms.sabcsport.com/storage/images/Kane_Williamson_PA.webp",
@@ -225,7 +225,7 @@
       "ratings": 9.4
     },
     {
-      "player_Id": 1017,
+      "player_id": 1017,
       "name": "Tamim Iqbal",
       "country": "Bangladesh",
       "image": "https://images.thequint.com/thequint%2F2017-06%2Fc9e66c44-2fd1-4e0b-8836-08a75a11e4f6%2FIqbal-123.jpg",
@@ -239,7 +239,7 @@
       "ratings": 8.9
     },
     {
-      "player_Id": 1018,
+      "player_id": 1018,
       "name": "Mushfiqur Rahim",
       "country": "Bangladesh",
       "image": "https://newsd.in/wp-content/uploads/2022/09/mushfiqur-rahim-fb.jpg",
@@ -253,7 +253,7 @@
       "ratings": 8.4
     },
     {
-      "player_Id": 1019,
+      "player_id": 1019,
       "name": "Quinton de Kock",
       "country": "South Africa",
       "image": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/384000/384065.jpg",
@@ -267,7 +267,7 @@
       "ratings": 8.5
     },
     {
-      "player_Id": 1020,
+      "player_id": 1020,
       "name": "Mahmudullah Riyad",
       "country": "Bangladesh",
       "image": "https://admin.dailycricket.com.bd/storage/posts/17123/ezgif-2-9828453b56.jpg",

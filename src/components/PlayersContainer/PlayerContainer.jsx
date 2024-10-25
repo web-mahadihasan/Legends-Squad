@@ -7,7 +7,7 @@ const PlayerContainer = ({ players, handleChoosePlayer }) => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mb-[220px]">
         {players.map((playerData) => (
           <Players
-            key={playerData.player_Id}
+            key={playerData.player_id}
             playerData={playerData}
             handleChoosePlayer={handleChoosePlayer}
           />

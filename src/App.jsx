@@ -8,13 +8,22 @@ import Footer from './components/Footer/Footer';
 
 function App() {
   const [claimCoin, setClaimCoin] = useState(0)
+  const [choosePlayer, setChoosePlayer] = useState([])
 
   const handleClaimCoin = (addCoin) => {
     setClaimCoin(claimCoin + addCoin);
   }
 
-  const handleChoosePlayer = (name) => {
-    console.log(name)
+  const handleChoosePlayer = (choosePlayerData) => {
+    const isExist = choosePlayer.find(
+      (prevChoose => prevChoose.player_id === choosePlayerData.player_id)
+    );
+    setChoosePlayer([...choosePlayer, choosePlayerData]);
+    if(isExist){
+      console.log('ache')
+    }else{
+      console.log('nai')
+    }
   }
 
 
@@ -23,7 +32,10 @@ function App() {
     <>
       <Navbar claimCoin={claimCoin} />
       <Banner handleClaimCoin={handleClaimCoin} />
-      <AvailableContainer handleChoosePlayer={handleChoosePlayer} />
+      <AvailableContainer
+        handleChoosePlayer={handleChoosePlayer}
+        choosePlayer={choosePlayer}
+      />
       <Subscribe />
       <Footer />
     </>
