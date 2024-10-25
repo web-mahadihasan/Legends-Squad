@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import banner from "../../../public/assets/banner-main.png";
 
 const Banner = ({ handleClaimCoin }) => {
   return (
@@ -7,11 +8,7 @@ const Banner = ({ handleClaimCoin }) => {
       style={{ backgroundImage: "url('../../../public/assets/bg-shadow.png')" }}
     >
       <div className="space-y-6 text-center">
-        <img
-          src="../../../public/assets/banner-main.png"
-          alt=""
-          className="mx-auto"
-        />
+        <img src={banner} alt="" className="mx-auto" />
         <h1 className="text-3xl lg:text-4xl font-bold text-white">
           Design Your Ultimate Dream 11 Cricket Team Today
         </h1>
@@ -19,7 +16,7 @@ const Banner = ({ handleClaimCoin }) => {
           Beyond Boundaries Beyond Limits
         </p>
         <button
-          onClick={() => handleClaimCoin(1000)}
+          onClick={handleClaimCoin}
           className="text-primary-color font-medium text-xl bg-[#E7FE29] rounded-xl py-2 px-3 ring-[#E7FE29] ring-offset-primary-color  ring-1 ring-offset-4"
         >
           Claim Free Credit

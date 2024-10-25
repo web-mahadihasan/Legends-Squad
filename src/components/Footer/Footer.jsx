@@ -1,10 +1,11 @@
+import footer from "../../../public/assets/logo-footer.png";
 
 const Footer = () => {
   return (
     <div className="bg-[#06091A] min-h-[750px]">
       <div className="container mx-auto px-4 pt-[250px]">
         <img
-          src="../../../public/assets/logo-footer.png"
+          src={footer}
           alt=""
           className="mx-auto"
         />

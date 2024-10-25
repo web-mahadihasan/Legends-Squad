@@ -6,7 +6,6 @@ import { HiOutlineCurrencyDollar } from "react-icons/hi";
 
 const Players = ({ playerData, handleChoosePlayer }) => {
   const {
-    player_Id,
     name,
     country,
     country_flag,
