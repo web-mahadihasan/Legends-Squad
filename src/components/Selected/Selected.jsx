@@ -15,7 +15,7 @@ const Selected = ({ choosePlayerData, handleRemovePlayer }) => {
       </div>
 
       <div>
-        <button onClick={() => handleRemovePlayer(player_id)}>
+        <button onClick={() => handleRemovePlayer(player_id)} className='p-2 rounded-full border hover:bg-base-200 duration-300'>
           <RiDeleteBinLine size="24px" color="red" />
         </button>
       </div>

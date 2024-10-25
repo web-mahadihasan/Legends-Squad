@@ -19,7 +19,7 @@ const Navbar = ({claimCoin}) => {
 
         {/* Menu  shadow-lg shadow-slate-700/5*/}
         <div className="flex gap-5 items-center">
-          <ul className="gap-5 items-center hidden md:flex">
+          <ul className="gap-5 items-center hidden lg:flex">
             <li>
               <a className="px-4 py-2 text-secondary-color hover:text-emerald-600 duration-300 cursor-pointer">
                 Home
@@ -50,7 +50,7 @@ const Navbar = ({claimCoin}) => {
         {/* Hamburger */}
         <button
           onClick={toggleMenu}
-          className="text-3xl md:hidden cursor-pointer"
+          className="text-3xl lg:hidden cursor-pointer"
         >
           {isOpen ? <RiCloseLargeFill /> : <RiMenu2Fill />}
         </button>

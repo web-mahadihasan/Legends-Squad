@@ -16,7 +16,7 @@ const Subscribe = () => {
           <p className="text-lg font-medium text-secondary-color">
             Get the latest updates and news right in your inbox!
           </p>
-          <div className='flex gap-4'>
+          <div className="flex gap-4">
             <input
               type="text"
               name=""
@@ -24,7 +24,7 @@ const Subscribe = () => {
               className="border flex-1 border-[#13131326]/15 rounded-md px-4 py-3 w-full text-secondary-color"
               placeholder="Enter your email"
             />
-            <button className="py-3 px-4 rounded-xl font-bold text-primary-color bg-gradient-to-l from-[#f8c65b] to-[#c874aa]">
+            <button className="py-3 px-4 rounded-xl font-bold text-primary-color bg-gradient-to-l from-[#f8c65b] to-[#c874aa] hover:opacity-90 duration-300">
               Subscribe
             </button>
           </div>
