@@ -2,7 +2,7 @@ import { useState } from "react";
 import PropTypes from 'prop-types'
 import { RiCoinsFill } from "react-icons/ri";
 import { RiMenu2Fill, RiCloseLargeFill } from "react-icons/ri";
-import img from '../../public/assets/logo.png'
+import img from "../../../public/assets/logo.png";
 
 const Navbar = ({claimCoin}) => {
  const [isOpen, setIsOpen] = useState(false);
