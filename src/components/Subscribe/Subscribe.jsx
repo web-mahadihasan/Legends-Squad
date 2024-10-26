@@ -75,15 +75,12 @@ const Subscribe = () => {
               Subscribe
             </button>
           </div>
-          
+
         </div>
       </div>
     </div>
   );
 };
 
-// Subscribe.propTypes = {
-//   // handleSubscribe: PropTypes.func.isRequired,
-// };
 
 export default Subscribe;
