@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
 import { getItemFromLs, setItemToLs } from "../../utilities/localStorage";
+import bgSubscribe from "../../../public/assets/news1.png";
+import bgSubscribes from "../../../public/assets/news2.png";
 
 const Subscribe = () => {
   const [email, setEmail] = useState("");
@@ -50,7 +52,7 @@ const Subscribe = () => {
       <div
         className="flex justify-center items-center w-full py-20 px-3 rounded-2xl border border-primary-color/10 bg-no-repeat bg-white"
         style={{
-          backgroundImage: `url('../../../public/assets/news1.png'), url('../../../public/assets/news2.png')`,
+          backgroundImage: `url(${bgSubscribe}), url(${bgSubscribes})`,
           backgroundPosition: "left bottom, top right",
         }}
       >
@@ -77,7 +79,6 @@ const Subscribe = () => {
               Subscribe
             </button>
           </div>
-
         </div>
       </div>
     </div>

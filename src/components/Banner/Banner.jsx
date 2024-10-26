@@ -1,11 +1,12 @@
 import PropTypes from "prop-types";
 import banner from "../../../public/assets/banner-main.png";
+import bgImg from "../../../public/assets/bg-shadow.png";
 
 const Banner = ({ handleClaimCoin }) => {
   return (
     <div
       className="container relative mx-auto px-4 min-h-[600px] bg-cover bg-no-repeat bg-[#131313] rounded-2xl my-6 flex justify-center items-center z-10"
-      style={{ backgroundImage: "url('../../../public/assets/bg-shadow.png')" }}
+      style={{ backgroundImage: `url(${bgImg})` }}
     >
       <div className="space-y-6 text-center">
         <img src={banner} alt="" className="mx-auto" />
