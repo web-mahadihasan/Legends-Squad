@@ -33,5 +33,3 @@ Banner.propTypes = {
 };
 
 export default Banner;
-
-// ring-[#E7FE29]  ring-1

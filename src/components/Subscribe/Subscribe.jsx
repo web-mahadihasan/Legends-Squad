@@ -21,7 +21,7 @@ const Subscribe = () => {
       return
     } 
     if(!isValidEmail(email)){
-      toast.warn(`Your enter Email is invalid`, {
+      toast.warn(`Please enter a Valid Email`, {
         position: "top-center",
         theme: "colored",
         autoClose: 2000,

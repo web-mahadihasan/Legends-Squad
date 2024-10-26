@@ -30,7 +30,7 @@ function App() {
       if(choosePlayerData.bidding_price < claimCoin){
         setChoosePlayer([...choosePlayer, choosePlayerData]);
         setClaimCoin(claimCoin - choosePlayerData.bidding_price);
-        toast.success(`Your have Successfully purchase ${choosePlayerData.name} in your team`, {
+        toast.success(`Congratulation! Your have Successfully purchase ${choosePlayerData.name} in your team`, {
           position: "top-center",
           theme: "colored",
           autoClose: 2000,

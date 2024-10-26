@@ -4,7 +4,7 @@ Welcome to **Legends Squad**, a player selection and cricket squad-making applic
 ## 🌟 **Project Overview**  
 **Legends Squad** allows users to explore and select cricket players to build their squad with a coin-based limitation. Upon visiting, users start with zero coins but can claim coins using a dedicated button. They can select up to six players for their squad and view detailed information about their choices. The application offers smooth user feedback with stylish toasts, clear data representation, and a dynamic selection and validation system.
 
-**Visit the live website here:** [**Legends Squad**](https://legends-squad.surge.sh/) (https://legends-squad.netlify.app/)
+**Visit the live website here:** [**Legends Squad**](https://legends-squad.surge.sh/) or Netlify [**Legends Squad**](https://legends-squad.netlify.app/)
 
 ## 🚀 **Technologies Used**  
 - **React** for building UI components.
@@ -32,4 +32,4 @@ The project integrates with a custom API that serves player data. This API suppl
 ## 💡 **Design & Inspiration**  
 This project was built following a Figma design template with a focus on user interaction, easy management, and intuitive design. The UI is crafted to ensure users can engage effortlessly, leveraging cards, buttons, and layout elements that offer a cricket-themed visual appeal.
 
-**Website URL:** [https://legends-squad.surge.sh/](https://legends-squad.surge.sh/)
+**Website URL:** [https://legends-squad.surge.sh/]or Netlify [**Legends Squad**](https://legends-squad.netlify.app/)
