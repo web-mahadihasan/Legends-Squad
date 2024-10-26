@@ -36,11 +36,13 @@ const Subscribe = () => {
 
   useEffect(()=> {
     const savedEmail = getItemFromLs()
-     toast.success(`Welcome Back ${savedEmail}!!`, {
-       position: "top-center",
-       theme: "colored",
-       autoClose: 2000,
-     });
+     if(savedEmail.length){
+      toast.success(`Welcome Back ${savedEmail}!!`, {
+        position: "top-center",
+        theme: "colored",
+        autoClose: 2000,
+      });
+     }
   }, [])
 
   return (
