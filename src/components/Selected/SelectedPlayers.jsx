@@ -3,7 +3,7 @@ import Selected from './Selected';
 
 const SelectedPlayers = ({handleAvailableBtn, choosePlayer, handleRemovePlayer }) => {
   return (
-    <div className="container mx-auto px-4 min-h-[60vh]">
+    <div className="max-w-screen-xl mx-auto px-4 min-h-[60vh]">
       <div>
         {choosePlayer.map((player) => (
           <Selected

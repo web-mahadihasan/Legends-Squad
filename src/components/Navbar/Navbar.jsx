@@ -12,7 +12,7 @@ const Navbar = ({claimCoin}) => {
  };
   return (
     <div className=" w-full sticky top-0  bg-white/50 z-40 backdrop-blur-2xl lg:border-slate-200 shadow-md shadow-slate-700/5">
-      <div className="relative  z-30 container mx-auto px-4  ">
+      <div className="relative  z-30 max-w-screen-xl mx-auto px-4  ">
         <nav className="flex justify-between items-center py-6 gap-4">
           <div className="flex-1">
             <img src={img} alt="" className="h-12 w-16" />

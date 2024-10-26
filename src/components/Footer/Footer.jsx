@@ -3,7 +3,7 @@ import footer from "../../../public/assets/logo-footer.png";
 const Footer = () => {
   return (
     <div className="bg-[#06091A] min-h-[750px]">
-      <div className="container mx-auto px-4 pt-[250px] pb-10">
+      <div className="max-w-screen-xl mx-auto px-4 pt-[250px] pb-10">
         <img src={footer} alt="" className="mx-auto w-48" />
         <div className="flex flex-col lg:flex-row justify-between mt-16 space-y-6 lg:space-y-0">
           <nav className="flex flex-col flex-1">

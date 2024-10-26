@@ -127,20 +127,6 @@
       "ratings": 9.3
     },
     {
-      "player_id": 1010,
-      "name": "Marnus Labuschagne",
-      "country": "Australia",
-      "image": "https://content.api.news/v3/images/bin/61b5341ea43f12979c08e9b7a569c146",
-      "role": "Batsman",
-      "batting_type": "Right-hander",
-      "bowling_type": "Leg-break",
-      "country_flag": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Australia.svg",
-      "bidding_price": 950000,
-      "icc_rank": 7,
-      "isTopRated": false,
-      "ratings": 8.6
-    },
-    {
       "player_id": 1011,
       "name": "Mustafizur Rahman",
       "country": "Bangladesh",
@@ -167,20 +153,6 @@
       "icc_rank": 12,
       "isTopRated": false,
       "ratings": 8.1
-    },
-    {
-      "player_id": 1013,
-      "name": "Pat Cummins",
-      "country": "Australia",
-      "image": "https://api.bdcrictime.com/pat-cummins-07_03_2022.jpg",
-      "role": "Bowler",
-      "batting_type": "Right-hander",
-      "bowling_type": "Right-arm fast",
-      "country_flag": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Australia.svg",
-      "bidding_price": 1050000,
-      "icc_rank": 1,
-      "isTopRated": true,
-      "ratings": 9.2
     },
     {
       "player_id": 1014,

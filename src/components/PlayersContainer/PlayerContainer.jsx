@@ -3,8 +3,8 @@ import Players from '../Players/Players'
 
 const PlayerContainer = ({ players, handleChoosePlayer }) => {
   return (
-    <div className="container mx-auto px-4 min-h-[60vh]">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mb-[220px]">
+    <div className="max-w-screen-xl mx-auto px-4 min-h-[60vh]">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-[220px]">
         {players.map((playerData) => (
           <Players
             key={playerData.player_id}
