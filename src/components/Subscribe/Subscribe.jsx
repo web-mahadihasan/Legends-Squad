@@ -4,7 +4,6 @@ import { getItemFromLs, setItemToLs } from "../../utilities/localStorage";
 
 const Subscribe = () => {
   const [email, setEmail] = useState("");
-  // const [inputEmail, setInputEmail] = useState("")
 
   const isValidEmail = (email) => {
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
@@ -76,11 +75,7 @@ const Subscribe = () => {
               Subscribe
             </button>
           </div>
-          {/* <p className="text-sm font-medium text-secondary-color">
-            {inputEmail
-              ? `Your are subscribe using ${inputEmail}`
-              : `You're not subscribe yet`}
-          </p> */}
+          
         </div>
       </div>
     </div>
