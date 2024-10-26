@@ -36,7 +36,7 @@ const Subscribe = () => {
 
   useEffect(()=> {
     const savedEmail = getItemFromLs()
-     if(savedEmail.length){
+     if(savedEmail){
       toast.success(`Welcome Back ${savedEmail}!!`, {
         position: "top-center",
         theme: "colored",
