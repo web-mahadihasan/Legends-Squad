@@ -86,17 +86,3 @@ Players.propTypes = {
 };
 
 export default Players
-
-
-// "player_Id": 1001,
-//       "name": "Virat Kohli",
-//       "country": "India",
-//       "image": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Virat_Kohli.jpg",
-//       "role": "Batsman",
-//       "batting_type": "Right-hander",
-//       "bowling_type": "Right-arm medium",
-//       "country_flag": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg",
-//       "bidding_price": 1200000,
-//       "ICC_rank": 2,
-//       "isTopRated": true,
-//       "ratings": 9.8

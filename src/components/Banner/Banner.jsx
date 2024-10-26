@@ -17,7 +17,7 @@ const Banner = ({ handleClaimCoin }) => {
         </p>
         <button
           onClick={handleClaimCoin}
-          className="text-primary-color font-medium text-xl bg-[#E7FE29] rounded-xl py-2 px-3 ring-[#E7FE29] relative  ring-1 ring-offset-4 ring-offset-primary-color hover:bg-opacity-85 duration-300"
+          className="text-primary-color font-medium text-xl bg-[#E7FE29] rounded-xl py-2 px-3  hover:bg-opacity-85 duration-300 ring-offset-4 ring-offset-primary-color ring-1 ring-[#E7FE29]"
         >
           Claim Free Credit
         </button>
@@ -32,3 +32,5 @@ Banner.propTypes = {
 };
 
 export default Banner;
+
+// ring-[#E7FE29]  ring-1

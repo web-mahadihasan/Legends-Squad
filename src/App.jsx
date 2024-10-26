@@ -19,9 +19,7 @@ function App() {
       theme: "colored",
       autoClose: 1000,
     })
-    setTimeout(() => {
-      setClaimCoin(claimCoin + randomMoney);
-    }, 1000);
+    setClaimCoin(claimCoin + randomMoney);
   }
 
   const handleChoosePlayer = (choosePlayerData) => {
@@ -65,6 +63,7 @@ function App() {
     });
   }
 
+  
 
 
   return (
@@ -84,32 +83,3 @@ function App() {
 }
 
 export default App
-
-        // handleAvailableBtn = { handleAvailableBtn };
-        // handleSelectBtn = { handleSelectBtn };
-        // isActiveContainer = { isActiveContainer };
-      
-// import PlayerContainer from './components/PlayersContainer/PlayerContainer';
-// import Selected from './components/Selected/Selected';
-
-
-  // const [isActiveContainer, setActiveContainer] = useState(true)
-  // const [players, setPlayers] = useState([])
- 
-
-          // const handleAvailableBtn = () => {
-  //   setActiveContainer(true);
-  // }
-  // const handleSelectBtn = () => {
-  //   setActiveContainer(false);
-  // }
-
-  // useEffect(()=> {
-  //   fetch(`person.json`)
-  //   .then(res => res.json())
-  //   .then(data => setPlayers(data.players))
-  // }, [])
-
-  {
-    /* {isActiveContainer ? <PlayerContainer players={players} /> : <Selected />} */
-  }

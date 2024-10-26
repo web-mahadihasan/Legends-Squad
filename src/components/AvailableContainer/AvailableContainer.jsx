@@ -76,9 +76,6 @@ AvailableContainer.propTypes = {
   handleChoosePlayer: PropTypes.func.isRequired,
   choosePlayer: PropTypes.array.isRequired,
   handleRemovePlayer: PropTypes.func.isRequired,
-  // handleAvailableBtn: PropTypes.func.isRequired,
-  // handleSelectBtn: PropTypes.func.isRequired,
-  // isActiveContainer: PropTypes.bool.isRequired,
 };
 
 export default AvailableContainer

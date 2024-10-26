@@ -50,7 +50,7 @@ const Footer = () => {
       {/* copyright */}
       <div className="border-t border-gray-600">
         <p className="text-center py-5 text-white/60 text-sm">
-          @2024 Your Company All Rights Reserved.
+          Copyright @2024 Legends Squad All Rights Reserved.
         </p>
       </div>
     </div>
