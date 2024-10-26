@@ -62,10 +62,7 @@ function App() {
       autoClose: 2000,
     });
   }
-
   
-
-
   return (
     <>
       <Navbar claimCoin={claimCoin} />

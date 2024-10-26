@@ -18,7 +18,7 @@ const Navbar = ({claimCoin}) => {
             <img src={img} alt="" className="h-12 w-16" />
           </div>
 
-          {/* Menu  shadow-lg shadow-slate-700/5*/}
+          {/* Menu*/}
           <div className="flex gap-5 items-center">
             <ul className="gap-5 items-center hidden lg:flex">
               <li>

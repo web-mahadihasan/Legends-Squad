@@ -7,7 +7,7 @@ Welcome to **Legends Squad**, a player selection and cricket squad-making applic
 **Visit the live website here:** [**Legends Squad**](https://legends-squad.surge.sh/) or Netlify [**Legends Squad**](https://legends-squad.netlify.app/)
 
 ## 🚀 **Technologies Used**  
-- **React** for building UI components.
+- **React** for building UI components. Use React reusable component
 - **React Hooks (useState, useEffect)** for managing state and lifecycle methods.
 - **JavaScript** for implementing logic and interactions. Using JS ES6 features.
 - **Tailwind CSS** for designing responsive and attractive layouts.
